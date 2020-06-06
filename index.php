@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>huinya</h1>
+    <h2>huinya</h2>
 </body>
 </html>

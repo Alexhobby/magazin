@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Интернет магазин</title>
 </head>
 <body>
     
-<h1>huinya</h1>
+<div id="bl-body">
+<?php
+include_once ("include/block-header.php");
+?>
+<div id="bl-right"></div>
+<div id="bl-content"></div>
 
+
+
+
+<?php
+include_once ("include/block-footer.php");
+?>
+
+</div>
 
 
 <script src="js/main.js"></script>

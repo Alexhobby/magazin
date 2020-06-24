@@ -26,7 +26,7 @@ border: 1px solid black;
 #header-top-block{
     width: 1035px;
     height: 35px;
-    border: 1px solid black;
+    /**border: 1px solid black;**/
 }
 
 #bl-footer{
@@ -56,4 +56,41 @@ border: 1px solid black;
     color: #EF662B;
     border-bottom: 1px dashed red;
 
+}
+
+#reg-auth-title {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+} 
+
+#reg-auth-title a.top-auth{
+   font: bold 13px sans-serif;
+   text-decoration: none;
+   background: url(/images/auth-butt-bg.png);
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   border: 1px solid #E9EAEA;
+   border-radius: 5px;
+   color: black;
+}
+#reg-auth-title a.top-auth:hover{
+    cursor: pointer;
+    background: url(/images/auth-butt-bg-move.png);
+}
+
+#reg-auth-title a{
+    font:14px sans-serif;
+    text-decoration: none;
+    color: #EF662B;
+    margin-left: 10px;
+    border-bottom: dashed 1px #EF662B;
+}
+
+#top-line{
+    background: url(/images/line.png);
+    width: 1035px;
+    height: 10px;
 }

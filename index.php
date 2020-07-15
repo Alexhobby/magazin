@@ -13,7 +13,14 @@
 <?php
 include_once ("include/block-header.php");
 ?>
-<div id="bl-right"></div>
+<div id="bl-right">
+
+<?php
+include_once ("include/block-category.php");
+?>
+
+</div>
+
 <div id="bl-content"></div>
 
 

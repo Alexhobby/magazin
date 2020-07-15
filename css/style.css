@@ -1,13 +1,12 @@
 #bl-body{
     width: 1035px;
     height: auto;
-    border: 1px solid black;
     margin: 0 auto;
 }
 #bl-header{
     width: 1035px;
     height: 220px;
-    border: 1px solid black;
+    
 }
 
 #bl-right{
@@ -93,4 +92,133 @@ border: 1px solid black;
     background: url(/images/line.png);
     width: 1035px;
     height: 10px;
+}
+
+#img-logo{
+    margin-top: 12px;
+    position: absolute;
+}
+
+#personal-info{
+    width: 300px;
+    margin-left: 730px;
+}
+
+#personal-info p{
+font: 15px sans-serif;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-right: 40px;
+}
+
+#personal-info h3{
+    font: bold 20px verdana;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+#personal-info img{
+    margin-left: 265px;
+    margin-top: -85px;
+}
+
+#block-search{
+    /**border: 1px solid black;**/ 
+    width: 380px;
+    height: auto;
+    margin-left: 630px;
+    margin-top: 8px;
+}
+#block-search span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    background: url(../images/icon-search.png);
+  
+   
+}
+
+#block-search input#input-search{
+    border: 1px solid #e1e1e2;
+    width: 280px;
+    height: 26px;
+    padding-left: 20px;
+    
+} 
+
+#button-search{
+
+width: 58px;
+height: 30px;
+border: 1px solid #e1e1e2;
+background: url(../images/grd-button-search-norm.png);
+
+
+}
+
+#top-menu{
+    width: 1033px;
+    height: 45px;
+}
+
+#top-menu li{
+float: left;
+margin-left: 10px;
+margin-top: 8px;
+}
+#top-menu a{
+   
+    font: 15px sans-serif;
+    color: #34659d;
+    margin-left: 5px;
+    text-decoration: none;
+    
+}
+
+#top-menu a:hover{
+    color: #EF662B;
+    border-bottom: 1px dashed;
+}
+
+#block-basket {
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+#block-basket img{
+    
+    margin-top: 2px;
+}
+
+#block-basket a{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#block-category{
+
+    width: 220px;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.header-title{
+    /* border: 2px solid black; */
+    width: 210 px;
+    font: 14px sans-serif;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: url(../images/grd-title.png);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#block-category >ul>li{
+ 
+    border-bottom: 1px solid #000;
+
 }

@@ -6,8 +6,9 @@
     <li><a href=""><img src="images/mobile-icon.gif" id="mobile-images" alt="">Мобильные телефоны</a>
 
         <ul class="category-section">
-            <li></li>
-
+            <li><a href=""><strong>Все модели</strong></a></li>
+            <li><a href="">Подраздел 1</a></li>
+            <li><a href="">Подраздел 2</a></li>
         </ul>
 
 
@@ -17,7 +18,9 @@
     <li><a href=""><img src="images/book-icon.gif" id="book-images" alt="">Ноутбуки</a>
 
         <ul class="category-section">
-            <li></li>
+        <li><a href=""><strong>Все модели</strong></a></li>
+            <li><a href="">Подраздел 1</a></li>
+            <li><a href="">Подраздел 2</a></li>
 
         </ul>
 
@@ -28,7 +31,9 @@
     <li><a href=""><img src="images/table-icon.gif" id="table-images" alt="">Планшеты</a>
 
         <ul class="category-section">
-            <li></li>
+        <li><a href=""><strong>Все модели</strong></a></li>
+            <li><a href="">Подраздел 1</a></li>
+            <li><a href="">Подраздел 2</a></li>
 
         </ul>
 

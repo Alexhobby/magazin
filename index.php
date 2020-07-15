@@ -17,6 +17,8 @@ include_once ("include/block-header.php");
 
 <?php
 include_once ("include/block-category.php");
+include_once ("include/block-parametr.php");
+include_once ("include/block-news.php");
 ?>
 
 </div>

@@ -11,7 +11,7 @@
 
 #bl-right{
    width: 220px;
-   height: 400px;
+   height: auto;
    border: 1px solid black; 
    float: right;
 }
@@ -33,6 +33,7 @@ border: 1px solid black;
     height: 160px;
     margin-top: 10px;
     border: 1px solid black;
+    clear: both;
 }
 
 #header-top-menu li{
@@ -220,5 +221,117 @@ margin-top: 8px;
 #block-category >ul>li{
  
     border-bottom: 1px solid #000;
+
+}
+
+.category-section{
+
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.category-section li{
+
+    margin-top: 3px;
+    
+}
+.category-section a{
+
+    font: 15px sans-serif;
+    
+}
+
+#block-parametr{
+    width: 220px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.title-filter{
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#block-input-price li{
+    float: left;
+    margin-left: 10px;
+    
+}
+#block-input-price input{
+    width: 45px;
+    height: 20px;
+    font: 14px;
+    border: 1px solid #dcdcdc;
+    padding-left: 3px;
+
+}
+
+#block-input-price p{
+    font: 14px;
+    float: left;
+    margin-top: 0px;
+    padding-top: 2px;
+}
+
+#blocktrackbar{
+    width: 220px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+    clear: both;
+}
+
+.checkbox-brand li{
+    font: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.checkbox-brand input{
+    margin-right: 8px;
+}
+
+#buttom-param-search{
+
+    width: 81px;
+    height: 27px;
+    background: url(../images/button-search-norm.png);
+    margin-top: 20px;
+    border: none;
+}
+
+#buttom-param-search:hover{
+    background: url(../images/button-search-hover.png);
+}
+#buttom-param-search:active{
+    background: url(../images/button-search-active.png);
+}
+
+#block-news{
+    width: 220px;
+    height: auto;
+}
+
+#newsticker{
+    width: 220px;
+    border-top: 1px solid #DDDDDD;
+}
+#newsticker p{
+   font: 14px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+#newsticker li{
+    border-bottom: 1px solid #DDD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#newsticker a{
+
+color: #EF662B;
+font: 14px bold;
+text-decoration: none;
 
 }
